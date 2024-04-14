@@ -1,0 +1,169 @@
+*{
+  border: white 1px solid;
+  padding: 0px; 
+  margin: 0px;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  background-color: #101010;
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  align-items: center;
+  background-color: #101010;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 600px;
+  height: 300px;
+  background-color: #1D1D1D;
+  border-radius: 20px;
+}
+
+.butt {
+  height: 2rem;
+  width: 2rem;
+  border: white 1px solid;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+  line-height: -10;
+}
+
+
+
+.label {
+  padding-bottom: 10px;
+  font-size: 50px;
+  background-color: #1D1D1D;
+}
+
+.inputBox {
+  font-size: 30px;
+  text-align: center;
+  border-radius: 10px;
+}
+
+
+.gapContainer {
+  gap: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.top {
+  display: flex;
+}
+
+.svgContainer {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.bottom {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  user-select: none;
+  align-items: center;
+  gap: 50px;
+}
+
+
+.title {
+  font-size: 50px;
+}
+
+.controls {
+  display: flex;
+  gap: 30px;
+  font-size: 40px;
+  text-align: center;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  user-select: none;
+  border: white 1px solid;
+  border-radius: 50%; 
+  height: 50px;
+  width: 50px; 
+}
+
+.buttonText {
+  display: grid;
+  place-items: center;
+  font-size: 30px;
+}
+
+.buttonContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.result {
+  font-size: 30px;
+}
+
+.resultText {
+  font-size: 20px;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
