@@ -1,5 +1,5 @@
 *{
-  border: white 1px solid;
+  /* border: white 1px solid; */
   padding: 0px; 
   margin: 0px;
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
@@ -28,7 +28,12 @@
   border-radius: 20px;
 }
 
-.butt {
+.cipherLevel{
+  border: white 1px solid;
+  border-radius: 5px;
+}
+
+.cipherLevelButton {
   height: 2rem;
   width: 2rem;
   border: white 1px solid;
@@ -37,8 +42,6 @@
   border-radius: 50%;
   line-height: -10;
 }
-
-
 
 .label {
   padding-bottom: 10px;
@@ -54,7 +57,7 @@
 
 
 .gapContainer {
-  gap: 50px;
+  gap: 30px;
   display: flex;
   flex-direction: column;
 }
@@ -81,6 +84,7 @@
 
 .title {
   font-size: 50px;
+  text-align: center;
 }
 
 .controls {

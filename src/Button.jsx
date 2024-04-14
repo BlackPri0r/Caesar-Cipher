@@ -6,7 +6,7 @@ const Button = ({label, label2, onClick}) => {
         <div>
             {label2}
         </div>
-        <div className="butt"onClick={onClick}>
+        <div className="cipherLevelButton"onClick={onClick}>
             {label}
         </div>
     </div>

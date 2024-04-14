@@ -29,6 +29,7 @@ function App() {
     <>
       <div className="container">
         <div className="gapContainer">
+          <div className="title">Caesar Cipher</div>
 
           
           <div className="top">
@@ -48,7 +49,7 @@ function App() {
             <div>
               <div>
                 Level
-                <div>{cipherLevel}</div>
+                <div className="cipherLevel">{cipherLevel}</div>
               </div>
             </div>
             <Button label="+" label2="Increment" onClick={()=> setLevel(cipherLevel + 1)}></Button>
